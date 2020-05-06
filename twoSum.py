@@ -12,5 +12,5 @@ def two_sum(nums: List[int], target: int) -> List[int]:
 
 
 if __name__ == '__main__':
-    print(two_sum([-3, 4, 3, 90], 0))
-    print(two_sum([3, 3], 6))
+    print(f"Array=[-3, 4, 3, 90], tagret=0, output={two_sum([-3, 4, 3, 90], 0)}")
+    print(f"Array=[3,3], target=6, output={two_sum([3, 3], 6)}")
